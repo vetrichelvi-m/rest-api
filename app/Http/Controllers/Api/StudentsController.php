@@ -12,7 +12,6 @@ class StudentsController extends Controller
     public function index(){
 
         $students = Student::all();
-
-        return response()->json($data,200);
+        // $data = return response()->json($data,200);
     }
 }
